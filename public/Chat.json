@@ -7,17 +7,17 @@
           "id": "u001",
           "name": "You",
           "username": "You",
-          "avatar": "https://example.com/avatars/You.jpg"
+          "avatar": "https://media.licdn.com/dms/image/v2/D5603AQFmbNEtYoKr6A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702811499122?e=1733356800&v=beta&t=j6dBUytvwlyFzMqDUoEwJlt2LFN915Poo57kMfOZtcg"
         },
         {
           "id": "u002",
-          "name": "Rahul",
+          "name": "Vaibhav",
           "username": "rahul_k",
-          "avatar": "https://example.com/avatars/rahul.jpg"
+          "avatar": "https://media.licdn.com/dms/image/v2/D5603AQFmbNEtYoKr6A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702811499122?e=1733356800&v=beta&t=j6dBUytvwlyFzMqDUoEwJlt2LFN915Poo57kMfOZtcg"
         },
         {
           "id": "u003",
-          "name": "Aarav",
+          "name": "Vaibhav",
           "username": "aarav12",
           "avatar": "https://example.com/avatars/aarav.jpg"
         },
@@ -37,7 +37,7 @@
           "id": "u006",
           "name": "Vikram",
           "username": "vikram007",
-          "avatar": "https://example.com/avatars/vikram.jpg"
+          "avatar": "https://media.licdn.com/dms/image/v2/D5603AQFmbNEtYoKr6A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702811499122?e=1733356800&v=beta&t=j6dBUytvwlyFzMqDUoEwJlt2LFN915Poo57kMfOZtcg"
         },
         {
           "id": "u007",
@@ -50,49 +50,49 @@
         {
           "senderId": "u001",
           "senderName": "You",
-          "message": "Hey everyone! How's the project going?",
+          "message": "Anyone interested in playing badminton nearby this evening?",
           "timestamp": "2024-08-30T10:15:00Z"
         },
         {
           "senderId": "u002",
-          "senderName": "Rahul",
-          "message": "Hey You! I’m almost done with my part. Just need to add some final touches.",
+          "senderName": "Vaibhav",
+          "message": "Ooh, that sounds fun! I haven’t played in a while. Where are you thinking of playing?",
           "timestamp": "2024-08-30T10:17:00Z"
         },
         {
           "senderId": "u003",
-          "senderName": "Aarav",
-          "message": "Same here, just finishing up. We should review everything together.",
+          "senderName": "Suyash",
+          "message": "Hey Vaibhav! There's a park about 10 minutes from here with a decent badminton court.",
           "timestamp": "2024-08-30T10:19:00Z"
         },
         {
           "senderId": "u004",
-          "senderName": "Priya",
-          "message": "I’ve completed the frontend design. Let me know if you need any changes.",
+          "senderName": "Ritik",
+          "message": "Count me in! I’ve been wanting to get out and play too. ",
           "timestamp": "2024-08-30T10:20:00Z"
         },
         {
           "senderId": "u005",
           "senderName": "Sneha",
-          "message": "Great! I’ll start integrating the APIs now.",
+          "message": "Not usually, especially on weekdays. We should be able to get a spot without any issues.",
           "timestamp": "2024-08-30T10:22:00Z"
         },
         {
           "senderId": "u006",
-          "senderName": "Vikram",
-          "message": "I’ve tested the backend, everything seems to be working fine.",
+          "senderName": "Suyash",
+          "message": "Great! I’ll bring my racket. Do we have enough shuttlecocks, though? Last time we ran out halfway through. 😅",
           "timestamp": "2024-08-30T10:25:00Z"
         },
         {
           "senderId": "u007",
           "senderName": "Neha",
-          "message": "Awesome, let's aim to finish by tonight.",
+          "message": "I’ve got a fresh pack! No worries, we’re covered. 😎",
           "timestamp": "2024-08-30T10:28:00Z"
         },
         {
           "senderId": "u001",
           "senderName": "You",
-          "message": "Perfect! Let’s have a final call in the evening to wrap things up.",
+          "message": "Haha, agreed! I’ll bring some extra in case. See you all at 6!",
           "timestamp": "2024-08-30T10:30:00Z"
         }
       ]

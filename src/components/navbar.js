@@ -40,7 +40,7 @@ const NavBar = () => {
         <div className={styles.leftMenu}>
           <ul>
             <li className={isActive('/home') ? styles.active : ''}>
-              <Link href="/home"><FontAwesomeIcon icon={faHome} /> Home</Link>
+              <Link href="/"><FontAwesomeIcon icon={faHome} /> Home</Link>
             </li>
             <li className={isActive('/discussion') ? styles.active : ''}>
               <Link href="/discussion"><FontAwesomeIcon icon={faComments} /> Discussion</Link>
@@ -50,11 +50,11 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <div className={styles.logo}>Studex Portal</div>
+        <div className={styles.logo}>PlayPal</div>
         <div className={styles.rightMenu}>
           <ul>
             <li className={isActive('/carrer') ? styles.active : ''}>
-              <Link href="/carrer"><FontAwesomeIcon icon={faBriefcase} /> Career</Link>
+              <Link href="/carrer"><FontAwesomeIcon icon={faBriefcase} /> Events</Link>
             </li>
             <li className={isActive('/profile') ? styles.active : ''}>
               <Link href="/profile"><FontAwesomeIcon icon={faUser} /> My Profile</Link>
