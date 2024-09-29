@@ -20,8 +20,8 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  background: url('https://firebasestorage.googleapis.com/v0/b/studex-portal.appspot.com/o/pattern.png?alt=media') center center no-repeat, 
-linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background:  center center no-repeat, 
+linear-gradient(135deg, #fea60e, #d7bc09, #fa8109);
   background-size: cover;
   background-blend-mode: hard-light;
   background-attachment: fixed;

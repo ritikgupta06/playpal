@@ -29,12 +29,19 @@ export default function Profile() {
             alt="Profile Thumbnail"
           />
           <div className={styles.check}><i className="fas fa-check"></i></div>
-          <h3 className={styles.name}>Beverly Little</h3>
-          <p className={styles.title}>Javascript Developer</p>
+          <h3 className={styles.name}>Ritik Gupta</h3>
+          <p className={styles.title}>Full Stack Developer</p>
           <p className={styles.description}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam aliquid porro!
           </p>
-          <button type="button" className={styles.btn}>Follow</button>
+          <div>
+      <button
+        type="button" className={styles.btn}
+        onClick={() => window.open('https://www.instagram.com/ritik_g_u_p_t_a_/', '_blank')}
+      >
+        Follow
+      </button>
+    </div>
         </div>
 
         <div className={styles.socialIcons}>

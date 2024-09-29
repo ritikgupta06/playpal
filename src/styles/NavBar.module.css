@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 
 .navbar {
   margin-top: 20px;
-  background: rgb(235, 188, 4);
+  background: rgb(20, 20, 20);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   overflow: hidden;
@@ -62,7 +62,7 @@
 
 .navbar a:hover {
   text-decoration: none;
-  color: blueviolet;
+  color: rgb(250, 239, 34);
   font-weight: bold;
 }
 
@@ -89,13 +89,13 @@
 }
 
 .active a {
-  color:  blueviolet;
+  color:  rgb(236, 213, 4);
   font-weight: bolder;
  
 }
 
 .leftMenu ul li.active a, .rightMenu ul li.active a {
-  color: blueviolet;
+  color: rgb(237, 223, 22);
   font-weight: bold;
   
 }
