@@ -1,0 +1,100 @@
+{
+    "groupChat": {
+      "groupId": "12345",
+      "groupName": "Tech Enthusiasts",
+      "users": [
+        {
+          "id": "u001",
+          "name": "You",
+          "username": "You",
+          "avatar": "https://example.com/avatars/You.jpg"
+        },
+        {
+          "id": "u002",
+          "name": "Rahul",
+          "username": "rahul_k",
+          "avatar": "https://example.com/avatars/rahul.jpg"
+        },
+        {
+          "id": "u003",
+          "name": "Aarav",
+          "username": "aarav12",
+          "avatar": "https://example.com/avatars/aarav.jpg"
+        },
+        {
+          "id": "u004",
+          "name": "Priya",
+          "username": "priya_r",
+          "avatar": "https://example.com/avatars/priya.jpg"
+        },
+        {
+          "id": "u005",
+          "name": "Sneha",
+          "username": "sneha_m",
+          "avatar": "https://example.com/avatars/sneha.jpg"
+        },
+        {
+          "id": "u006",
+          "name": "Vikram",
+          "username": "vikram007",
+          "avatar": "https://example.com/avatars/vikram.jpg"
+        },
+        {
+          "id": "u007",
+          "name": "Neha",
+          "username": "neha_98",
+          "avatar": "https://example.com/avatars/neha.jpg"
+        }
+      ],
+      "messages": [
+        {
+          "senderId": "u001",
+          "senderName": "You",
+          "message": "Hey everyone! How's the project going?",
+          "timestamp": "2024-08-30T10:15:00Z"
+        },
+        {
+          "senderId": "u002",
+          "senderName": "Rahul",
+          "message": "Hey You! I’m almost done with my part. Just need to add some final touches.",
+          "timestamp": "2024-08-30T10:17:00Z"
+        },
+        {
+          "senderId": "u003",
+          "senderName": "Aarav",
+          "message": "Same here, just finishing up. We should review everything together.",
+          "timestamp": "2024-08-30T10:19:00Z"
+        },
+        {
+          "senderId": "u004",
+          "senderName": "Priya",
+          "message": "I’ve completed the frontend design. Let me know if you need any changes.",
+          "timestamp": "2024-08-30T10:20:00Z"
+        },
+        {
+          "senderId": "u005",
+          "senderName": "Sneha",
+          "message": "Great! I’ll start integrating the APIs now.",
+          "timestamp": "2024-08-30T10:22:00Z"
+        },
+        {
+          "senderId": "u006",
+          "senderName": "Vikram",
+          "message": "I’ve tested the backend, everything seems to be working fine.",
+          "timestamp": "2024-08-30T10:25:00Z"
+        },
+        {
+          "senderId": "u007",
+          "senderName": "Neha",
+          "message": "Awesome, let's aim to finish by tonight.",
+          "timestamp": "2024-08-30T10:28:00Z"
+        },
+        {
+          "senderId": "u001",
+          "senderName": "You",
+          "message": "Perfect! Let’s have a final call in the evening to wrap things up.",
+          "timestamp": "2024-08-30T10:30:00Z"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,199 @@
+
+/* Chat.module.css */
+.container {
+    width: 80%;
+    max-width: 1100px;
+    height: 620px;
+    margin: 30px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.324);
+    border-radius: 20px;
+    font-family: poppins, sans-serif;  
+    position: fixed; /* Fix the container position */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for center alignment */
+  }
+  .msger {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .msgerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(129, 0, 249); /* Blue header background */
+    color: #fff;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+  }
+  
+  .msgerHeaderTitle {
+    font-size: 1.6rem;
+    font-weight: 550;
+  }
+  
+  
+  .statusIndicators {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    gap: 10px; /* Adjust gap between circles as needed */
+    padding: 5px; /* Optional: add padding if you need space around the circles */
+  }
+  
+  .statusIndicators span {
+    display: block;
+    width: 18px; /* Adjust size as needed */
+    height: 18px; /* Adjust size as needed */
+    border-radius: 50%;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: rgb(251, 192, 0);
+  }
+  
+  .green {
+    background-color: rgb(53, 212, 0);
+  }
+  
+  
+  .msgerHeaderOptions {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .msgerChat {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background: #f9f9f9;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .msg {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .leftMsg {
+    justify-content: flex-start;
+  }
+  
+  .rightMsg {
+    justify-content: flex-end;
+  }
+  
+  .msgImg {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border: 2px solid #ddd;
+  }
+  
+  .leftMsg .msgImg {
+    margin-right: 10px;
+  }
+  
+  .rightMsg .msgImg {
+    margin-left: 10px;
+  }
+  
+  .msgBubble {
+    max-width: 65%;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #e9ecef;
+    position: relative;
+  }
+  
+  .leftMsg .msgBubble {
+    background-color: #e9ecef;
+  }
+  
+  .rightMsg .msgBubble {
+    background-color: rgb(129, 0, 249); /* Blue bubble background */
+    color: #fff;
+    text-align: right;
+  }
+  
+  .msgBubble::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left: 10px solid rgb(129, 0, 249); /* Blue triangle for the right side */
+    border-right: 10px solid transparent;
+    transform: translateY(-50%);
+    right: -10px;
+  }
+  
+  .leftMsg .msgBubble::before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid #e9ecef; /* Triangle for the left side */
+    right: auto;
+    left: -10px;
+  }
+  
+  .msgInfo {
+    font-family: poppins, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: #000000;
+  }
+  
+  .msgInfoName {
+    font-weight: bold;
+  }
+  
+  .msgInfoTime {
+    font-size: 0.8rem;
+  }
+  
+  .msgText {
+    margin-top: 5px;
+  }
+  
+  .msgerInputarea {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .msgerInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+  
+  .msgerSendBtn {
+    background-color: blueviolet; /* Blue button background */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
