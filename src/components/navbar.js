@@ -39,7 +39,7 @@ const NavBar = () => {
       <div className={styles.navbar}>
         <div className={styles.leftMenu}>
           <ul>
-            <li className={isActive('/home') ? styles.active : ''}>
+            <li className={isActive('/') ? styles.active : ''}>
               <Link href="/"><FontAwesomeIcon icon={faHome} /> Home</Link>
             </li>
             <li className={isActive('/discussion') ? styles.active : ''}>
@@ -59,11 +59,7 @@ const NavBar = () => {
             <li className={isActive('/profile') ? styles.active : ''}>
               <Link href="/profile"><FontAwesomeIcon icon={faUser} /> My Profile</Link>
             </li>
-            {username ? (
-              <li>
-                <a onClick={handleLogoutClick}><FontAwesomeIcon icon={faSignOutAlt} /> Log Out</a>
-              </li>
-            ) : (
+         { (
               <li className={isActive('/login') ? styles.active : ''}>
                 <Link href="/login"><FontAwesomeIcon icon={faSignInAlt} /> Log In</Link>
               </li>
@@ -74,8 +70,8 @@ const NavBar = () => {
 
       <div className={styles.footerNav}>
         <ul>
-          <li className={isActive('/home') ? styles.active : ''}>
-            <Link href="/home"><FontAwesomeIcon icon={faHome} /></Link>
+          <li className={isActive('/') ? styles.active : ''}>
+            <Link href="/"><FontAwesomeIcon icon={faHome} /></Link>
           </li>
           <li className={isActive('/discussion') ? styles.active : ''}>
             <Link href="/discussion"><FontAwesomeIcon icon={faComments} /></Link>
@@ -89,11 +85,7 @@ const NavBar = () => {
           <li className={isActive('/profile') ? styles.active : ''}>
             <Link href="/profile"><FontAwesomeIcon icon={faUser} /></Link>
           </li>
-          {username ? (
-            <li>
-              <a onClick={handleLogoutClick}><FontAwesomeIcon icon={faSignOutAlt} /></a>
-            </li>
-          ) : (
+         { (
             <li className={isActive('/login') ? styles.active : ''}>
               <Link href="/login"><FontAwesomeIcon icon={faSignInAlt} /></Link>
             </li>
