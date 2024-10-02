@@ -21,7 +21,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover; */
   background:  center center no-repeat, 
-linear-gradient(135deg, #fea60e, #d7bc09, #fa8109);
+linear-gradient(135deg, #29292a, #363733, #2a272b);
   background-size: cover;
   background-blend-mode: hard-light;
   background-attachment: fixed;

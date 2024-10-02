@@ -1,18 +1,37 @@
 
 /* Chat.module.css */
 .container {
-    width: 80%;
-    max-width: 1100px;
-    height: 620px;
-    margin: 30px;
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.324);
-    border-radius: 20px;
-    font-family: poppins, sans-serif;  
-    position: fixed; /* Fix the container position */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust for center alignment */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 700px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 100px auto auto auto;
+
+}
+
+/* Responsive for small screens like mobile */
+@media (max-width: 768px) {
+  .container {
+    height: 100vh;
+    max-width: 100%;
+    border-radius: 0;
   }
+}
+
+/* Responsive for very small screens */
+@media (max-width: 480px) {
+  .container {
+    height: 81vh;
+    position: fixed;
+    border: none;
+
+
+  }
+}
+
   .msger {
     height: 100%;
     display: flex;
@@ -187,7 +206,7 @@
   }
   
   .msgerSendBtn {
-    background-color: rgb(11, 8, 13); /* Blue button background */
+    background-color: rgb(96, 6, 156); /* Blue button background */
     color: #fff;
     border: none;
     border-radius: 20px;

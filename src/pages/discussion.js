@@ -117,6 +117,7 @@ const Chat = () => {
           </form>
         </section>
       </div>
+
     </>
   );
 };
