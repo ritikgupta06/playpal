@@ -23,13 +23,13 @@ export default function Profile() {
             </div>
 
             <div className={styles.profile}>
-              <Image
-                src="https://avatars.githubusercontent.com/u/142598621?v=4"
+              {/* <Image
+                src="https://media.licdn.com/dms/image/v2/D5603AQEW6CNr3E-AJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1703953203750?e=1733356800&v=beta&t=HdIzVnpQk7XvQ6Q0y0RU-4BSLsbtqFf6Ry_pnNaB0gc"
                 className={styles.thumbnail}
                 alt="Profile Thumbnail"
                 width={150}  // Set appropriate width
                 height={150} // Set appropriate height
-              />
+              /> */}
               <div className={styles.check}><i className="fas fa-check"></i></div>
               <h3 className={styles.name}>Ritik Gupta</h3>
               <p className={styles.title}>Full Stack Developer</p>

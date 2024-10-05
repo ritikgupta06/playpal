@@ -20,8 +20,9 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  background:  center center no-repeat, 
-linear-gradient(135deg, #29292a, #363733, #2a272b);
+  /* background:  center center no-repeat, 
+linear-gradient(135deg, #29292a, #363733, #2a272b); */
+background-color: #370071;
   background-size: cover;
   background-blend-mode: hard-light;
   background-attachment: fixed;
